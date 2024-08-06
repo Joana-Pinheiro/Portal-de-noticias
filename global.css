@@ -49,22 +49,7 @@ h1, h2, h3 {
     margin-inline: auto;
 }
 
-/* utility first */
-.grid {
-    display: grid;
-}
 
-.grid-flow-col {
-    grid-auto-flow: column;
-}
-
-.grid-cols-2 {
-    grid-template-columns: 1fr 1fr;
-}
-
-.gap-16 {
-    gap: 16px;
-}
 
 img {
     max-width: 100%;
@@ -72,4 +57,15 @@ img {
 
 main {
     margin-top: 20px;
+}
+
+.content-tag {
+    display: inline-block;
+    background-color: var(--brand-color-dark);
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font: 500 10px/12px var(--text-color-primary);
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
 }
