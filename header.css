@@ -22,4 +22,5 @@
     border: solid var(--stroke-color) 1px;
     border-inline: none;
     justify-content: space-between;
+    color: var(--text-color-secondary);
 }
